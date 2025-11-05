@@ -63,22 +63,17 @@ book_review_portal/
 ├── package.json
 └── README.md
 
-
----
-
-## ⚙️ Installation & Setup
-
-
-
-### 1️⃣ Clone the repository
+Clone the repo:
 
 ```bash
 git clone https://github.com/your-username/book_review_portal.git
 cd book_review_portal
-2️⃣ Install dependencies
+
+Install dependencies
 composer install
 npm install
 npm run dev
+---
 3️⃣ Create .env file
 cp .env.example .env
 Update your .env file with:
@@ -88,17 +83,23 @@ DB_PORT=3306
 DB_DATABASE=book_review_portal
 DB_USERNAME=root
 DB_PASSWORD=
+---
 4️⃣ Generate app key
+
 php artisan key:generate
+---
 5️⃣ Run migrations and seed the database
+
 php artisan migrate --seed
 If you encounter memory issues during seeding, run:
 php -d memory_limit=1G artisan db:seed
+---
 6️⃣ Start the local development server
+
 php artisan serve
 Now open your browser and visit:
 👉 http://127.0.0.1:8000/books
-
+---
 💡 Technologies Used
 
 Laravel 11.x — Backend framework
@@ -110,7 +111,7 @@ Blade — Templating engine
 TailwindCSS — Optional styling (used for layout)
 
 Faker — Dummy data generator for seeding
-
+---
 ## 🖼️ Screenshots
 > All screenshots are stored in the `/screenshots` folder.
 
