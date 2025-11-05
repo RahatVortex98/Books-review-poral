@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-lockup-cmyk-red.svg" width="400" alt="Laravel Logo">
   </a>
 </p>
 
@@ -63,77 +63,93 @@ book_review_portal/
 ├── package.json
 └── README.md
 
-Clone the repo:
+yaml
+Copy code
 
+---
+
+## ⚙️ Installation Guide
+
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/book_review_portal.git
 cd book_review_portal
-
-Install dependencies
+2️⃣ Install Dependencies
+bash
+Copy code
 composer install
 npm install
 npm run dev
----
-3️⃣ Create .env file
+3️⃣ Create .env File
+bash
+Copy code
 cp .env.example .env
-Update your .env file with:
+Then update your .env file with:
+
+makefile
+Copy code
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=book_review_portal
 DB_USERNAME=root
 DB_PASSWORD=
----
-4️⃣ Generate app key
-
+4️⃣ Generate Application Key
+bash
+Copy code
 php artisan key:generate
----
-5️⃣ Run migrations and seed the database
-
+5️⃣ Run Migrations & Seed the Database
+bash
+Copy code
 php artisan migrate --seed
-If you encounter memory issues during seeding, run:
-php -d memory_limit=1G artisan db:seed
----
-6️⃣ Start the local development server
+If you encounter memory issues during seeding:
 
+bash
+Copy code
+php -d memory_limit=1G artisan db:seed
+6️⃣ Start the Local Development Server
+bash
+Copy code
 php artisan serve
 Now open your browser and visit:
 👉 http://127.0.0.1:8000/books
----
-💡 Technologies Used
 
-Laravel 11.x — Backend framework
+💡 Technologies Used
+Laravel 11.x — Backend Framework
 
 MySQL — Database
 
-Blade — Templating engine
+Blade — Templating Engine
 
 TailwindCSS — Optional styling (used for layout)
 
 Faker — Dummy data generator for seeding
----
-## 🖼️ Screenshots
-> All screenshots are stored in the `/screenshots` folder.
 
-### 🔍 Search by Title
-![Search by title](screenshots/search_by_title.PNG)
+🖼️ Screenshots
+All screenshots are stored in the /screenshots folder.
 
-### 🏠 Home Page (Latest Books)
-![Front page](screenshots/front_page.PNG)
-
-### 🌟 Popular Last Month
-![Popular last month](screenshots/popular_last_month.PNG)
-
-### 📅 Popular Last 6 Months
-![Popular last 6 months](screenshots/popular_last_6_month.PNG)
-
-### 🏆 Highest Rated Last Month
-![Highest rated last month](screenshots/highest_rated_last_month.PNG)
-
-### 🏅 Highest Rated Last 6 Months
-![Highest rated last 6 months](screenshots/highest_rated_last_6_month.PNG)
-
-### 📖 Single Book Review & Rating
-![Book review and rating](screenshots/book_review_and_rating.PNG)
+🔍 Search by Title
 
 
+🏠 Home Page (Latest Books)
+
+
+🌟 Popular Last Month
+
+
+📅 Popular Last 6 Months
+
+
+🏆 Highest Rated Last Month
+
+
+🏅 Highest Rated Last 6 Months
+
+
+📖 Single Book Review & Rating
+
+
+📜 License
+This project is licensed under the MIT License.
+
+<p align="center"> Made with ❤️ using Laravel </p> ```
