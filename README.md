@@ -32,29 +32,26 @@ This project demonstrates practical use of **Eloquent ORM**, **database seeding*
 
 
 
-## 🖼️ Screenshots
-> All screenshots are stored in the `/screenshots` folder.
-
 ### 🔍 Search by Title
-(screenshots/search_by_title.PNG)
+![Search by title](screenshots/search_by_title.PNG)
 
 ### 🏠 Home Page (Latest Books)
-(screenshots/front_page.PNG)
+![Front page](screenshots/front_page.PNG)
 
 ### 🌟 Popular Last Month
-(screenshots/popular_last_month.PNG)
+![Popular last month](screenshots/popular_last_month.PNG)
 
 ### 📅 Popular Last 6 Months
-(screenshots/popular_last_6_month.PNG)
+![Popular last 6 months](screenshots/popular_last_6_month.PNG)
 
 ### 🏆 Highest Rated Last Month
-(screenshots/highest_rated_last_month.PNG)
+![Highest rated last month](screenshots/highest_rated_last_month.PNG)
 
 ### 🏅 Highest Rated Last 6 Months
-(screenshots/highest_rated_last_6_month.PNG)
+![Highest rated last 6 months](screenshots/highest_rated_last_6_month.PNG)
 
 ### 📖 Single Book Review & Rating
-(screenshots/book_review_and_rating.PNG)
+![Book review and rating](screenshots/book_review_and_rating.PNG)
 
 
 
