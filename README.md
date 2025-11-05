@@ -110,17 +110,15 @@ TailwindCSS — Optional styling (used for layout)
 Faker — Dummy data generator for seeding
 
 🖼️ Screenshots
-🔍 Search by title:
-<img width="667" height="252" alt="search by title" src="https://github.com/user-attachments/assets/e0750c9e-f1fa-4501-ac20-ad16e9da2844" />
-🏠 Home page:
-<img width="403" height="638" alt="front page" src="https://github.com/user-attachments/assets/ff173c2c-6fa1-4ea2-8c20-6df70ec50017" />
-🌟 Popular last month:
-<img width="395" height="633" alt="popular last month" src="https://github.com/user-attachments/assets/53839380-3fe1-4d51-8372-cb006e318fef" />
-📅 Popular last 6 months:
-<img width="389" height="631" alt="popular last 6 month" src="https://github.com/user-attachments/assets/ff616d27-e1bd-4825-95b8-8b5e71c7c1f3" />
-🏆 Highest Rated last Month:
-<img width="390" height="638" alt="higest rated last month" src="https://github.com/user-attachments/assets/437da8bb-50e7-4f9e-ab23-2d3db2c0fd7c" />
-🏅 Highest Rated last 6 months:
-<img width="400" height="635" alt="higest rated last 6 month" src="https://github.com/user-attachments/assets/8e2e4e5c-4de6-4189-98f6-c7c9b6148f52" />
-📖 Single Book Review & Rating:
-<img width="659" height="639" alt="book review and rating" src="https://github.com/user-attachments/assets/1160b1e5-1848-4fcc-966b-4acfefc40b37" />
+| Description | Recommended Image Link (Using Relative Path) |
+| :--- | :--- |
+| **🔍 Search by title:** | `<img width="667" height="252" alt="search by title" src="[PATH_TO_YOUR_IMAGE_FOLDER]/search_by_title.png" />` |
+| **🏠 Home page:** | `<img width="403" height="638" alt="front page" src="[PATH_TO_YOUR_IMAGE_FOLDER]/front_page.png" />` |
+| **🌟 Popular last month:** | `<img width="395" height="633" alt="popular last month" src="[PATH_TO_YOUR_IMAGE_FOLDER]/popular_last_month.png" />` |
+| **📅 Popular last 6 months:** | `<img width="389" height="631" alt="popular last 6 month" src="[PATH_TO_YOUR_IMAGE_FOLDER]/popular_last_6_months.png" />` |
+| **🏆 Highest Rated last Month:** | `<img width="390" height="638" alt="higest rated last month" src="[PATH_TO_YOUR_IMAGE_FOLDER]/highest_rated_last_month.png" />` |
+| **🏅 Highest Rated last 6 months:** | `<img width="400" height="635" alt="higest rated last 6 month" src="[PATH_TO_YOUR_IMAGE_FOLDER]/highest_rated_last_6_months.png" />` |
+| **📖 Single Book Review & Rating:** | `<img width="659" height="639" alt="book review and rating" src="[PATH_TO_YOUR_IMAGE_FOLDER]/book_review_and_rating.png" />` |
+
+---
+
