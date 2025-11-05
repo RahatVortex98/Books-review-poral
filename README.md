@@ -109,20 +109,28 @@ TailwindCSS — Optional styling (used for layout)
 
 Faker — Dummy data generator for seeding
 
-🖼️ Screenshots
-Note: The paths assume your screenshots are saved in a folder named screenshots/ in the root of your repository.
+## 🖼️ Screenshots
+> All screenshots are stored in the `/screenshots` folder.
 
-🔍 Search by title: <img width="667" height="252" alt="search by title" src="screenshots/search by title.PNG" />
+### 🔍 Search by Title
+![Search by title](screenshots/search_by_title.PNG)
 
-🏠 Home page (Latest Books): <img width="403" height="638" alt="front page" src="screenshots/front page.PNG" />
+### 🏠 Home Page (Latest Books)
+![Front page](screenshots/front_page.PNG)
 
-🌟 Popular last month: <img width="395" height="633" alt="popular last month" src="screenshots/popular last month.PNG" />
+### 🌟 Popular Last Month
+![Popular last month](screenshots/popular_last_month.PNG)
 
-📅 Popular last 6 months: <img width="389" height="631" alt="popular last 6 month" src="screenshots/popular last 6 month.PNG" />
+### 📅 Popular Last 6 Months
+![Popular last 6 months](screenshots/popular_last_6_month.PNG)
 
-🏆 Highest Rated last Month: <img width="390" height="638" alt="higest rated last month" src="screenshots/higest rated last month.PNG" />
+### 🏆 Highest Rated Last Month
+![Highest rated last month](screenshots/highest_rated_last_month.PNG)
 
-🏅 Highest Rated last 6 months: <img width="400" height="635" alt="higest rated last 6 month" src="screenshots/higest rated last 6 month.PNG" />
+### 🏅 Highest Rated Last 6 Months
+![Highest rated last 6 months](screenshots/highest_rated_last_6_month.PNG)
 
-📖 Single Book Review & Rating: <img width="659" height="639" alt="book review and rating" src="screenshots/book review and rating.PNG" />
+### 📖 Single Book Review & Rating
+![Book review and rating](screenshots/book_review_and_rating.PNG)
+
 
