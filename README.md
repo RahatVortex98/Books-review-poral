@@ -1,36 +1,35 @@
 <p align="center">
   <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-lockup-cmyk-red.svg" width="400" alt="Laravel Logo">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/RahatVortex98/laravel-task-manager/actions"><img src="https://github.com/RahatVortex98/laravel-task-manager/workflows/tests/badge.svg" alt="Build Status"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql">
+  <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
-
-# Laravel Task Manager
-
-A **simple and elegant Task Management System** built with **Laravel 12**, enabling you to:
-
-- Create, edit, view, and delete tasks
-- Toggle task completion status
-- Display success messages and timestamps
-- Paginate tasks
-- Fully styled with Bootstrap 5
 
 ---
 
-## 🛠 Features
+# 📚 Book Review Portal
 
-- ✅ CRUD operations for tasks  
-- 🔁 Toggle task completion (completed / pending)  
-- 📅 Shows created timestamps  
-- 💬 Flash messages for success alerts  
-- 🗂 Pagination support  
-- 🎨 Clean Bootstrap UI  
+A **Laravel-based Book Review Portal** where users can browse books, view details, and explore reader reviews dynamically.  
+This project demonstrates practical use of **Eloquent ORM**, **database seeding**, **query optimization with `when()`**, and **relationship handling (`hasMany`)** in Laravel.
+
+---
+
+## 🚀 Features
+
+- 📘 List all books dynamically from the database  
+- 🧠 Display each book with author and reviews  
+- 🧩 Uses `with()` for eager loading to optimize queries  
+- 🔍 Dynamic filtering using the `when()` query method  
+- 🧰 Seeder integration with `Faker` for dummy data  
+- ⚙️ Modern MVC structure following Laravel best practices  
+- 🧾 Clean and minimal front-end with Blade templates  
+
 
 
 ## 🖼️ Screenshots
@@ -79,13 +78,16 @@ A **simple and elegant Task Management System** built with **Laravel 12**, enabl
 
 ### Clone the repository
 
-```bash
-git clone https://github.com/RahatVortex98/laravel-task-manager.git
-cd laravel-task-manager
 
-Install dependencies
-composer install
-npm install && npm run dev
+---
+
+## ⚙️ Installation Guide
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/book_review_portal.git
+cd book_review_portal
+
 
 
 ✨ Future Improvements
@@ -105,9 +107,20 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 Please follow the Code of Conduct
 .
 
+💡 Technologies Used
+
+Laravel 11.x — Backend Framework
+
+MySQL — Database
+
+Blade — Templating Engine
+
+TailwindCSS — Optional styling (used for layout)
+
+Faker — Dummy data generator for seeding
+
 🪪 License
 
 This project is licensed under the MIT License
 .
 
-<p align="center">Made with ❤️ using Laravel</p> ```
